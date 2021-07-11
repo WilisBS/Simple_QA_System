@@ -15,22 +15,22 @@ Question answering system (for text in Bahasa Indonesia) using nltk CRFTagger, n
 
 *Question processing
 
-7. generate question-word from question
-8. divide the type of every question-word (postag/nertag)
-9. generate type of answer-tag (postag/nertag) based on question-word
-10. preprocessing question (used as keyword)
-11. apply CRFTagger to the question
-12. generate verb from question
+8. generate question-word from question
+9. divide the type of every question-word (postag/nertag)
+10. generate type of answer-tag (postag/nertag) based on question-word
+11. preprocessing question (used as keyword)
+12. apply CRFTagger to the question
+13. generate verb from question
 
 *Text weighting
 
-13. split text as passage
-14. simple weigting proccess using similar words between every passage and keyword (from question)
-15. retrieve passage with the highest weight 
+14. split text as passage
+15. simple weigting proccess using similar words between every passage and keyword (from question)
+16. retrieve passage with the highest weight 
 
 *Answer Processing
 
-16. generate type of answer-tag (from question processing)
-17. apply CRFTagger/StanfordNERTagger to the retrieved passage (based on type of answer-tag)
-18. get the answer from passage with the same tag as the answer-tag
-19. verb (from question) is only used if the question-word is "apa" (what)
+17. generate type of answer-tag (from question processing)
+18. apply CRFTagger/StanfordNERTagger to the retrieved passage (based on type of answer-tag)
+19. get the answer from passage with the same tag as the answer-tag
+20. verb (from question) is only used if the question-word is "apa" (what)
