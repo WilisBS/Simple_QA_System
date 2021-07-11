@@ -8,7 +8,7 @@ Question answering system (for text in Bahasa Indonesia) using nltk CRFTagger, n
 
 2. prepare text data
 3. make CRFTagger Model manually based on the text data
-4. download Stanford NER Tagger package (Indonesia)
+4. download Stanford NER Tagger package (Indonesia) and save the folder as 'stanford-ner'
 5. text preprocessing 
 6. create CRFTagger method
 7. create StanfordNERTagger method
