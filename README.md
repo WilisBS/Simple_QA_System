@@ -1,5 +1,5 @@
 # Simple_QA_System
-Author: WilisBS, AdhiS, GhiffaroNR, TuahtaR, Brillian 
+# Author: WilisBS, AdhiS, GhiffaroNR, TuahtaR, Brillian 
 Question answering system (for text in Bahasa Indonesia) using nltk CRFTagger, nltk StanfordNERTagger, Sastrawi (for text preprocessing), and simple weighting (similar words).
 
 1. you have to know first the differences between pos-tag and ner-tag
